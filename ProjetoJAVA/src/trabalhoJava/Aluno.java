@@ -5,10 +5,10 @@ public class Aluno {
     public String sobrenomeAluno;
     public Integer idAluno;
 
-    public Aluno(Integer idA, String nomeA, String sobrenomeA) {
-        this.nomeAluno = nomeA;
-        this.sobrenomeAluno = sobrenomeA;
-        this.idAluno = idA;
+    public Aluno(Integer idAluno, String nomeAluno, String sobrenomeAluno) {
+        this.nomeAluno = nomeAluno;
+        this.sobrenomeAluno = sobrenomeAluno;
+        this.idAluno = idAluno;
     }
 
     public String getNome() {
@@ -16,22 +16,27 @@ public class Aluno {
     }
 
     public void setNome(String nomeAluno) {
+
         this.nomeAluno = nomeAluno;
     }
 
-    public String getSobrenomeA() {
+    public String getSobrenomeAluno() {
+
         return sobrenomeAluno;
     }
 
-    public void setSobrenomeAluno(String sobrenomeA) {
+    public void setSobrenomeAluno(String sobrenomeAluno) {
+
         this.sobrenomeAluno = sobrenomeAluno;
     }
 
-    public Integer getidA() {
+    public Integer getIdAluno() {
+
         return idAluno;
     }
 
     public void setidA(Integer idAluno) {
+
         this.idAluno = idAluno;
     }
 

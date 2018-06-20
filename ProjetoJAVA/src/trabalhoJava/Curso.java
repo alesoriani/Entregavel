@@ -1,4 +1,10 @@
-import java.util.ArrayList;
+package trabalhoJava;
+
+//import trabalhoJava.Aluno;
+//import trabalhoJava.ProfessorAdjunto;
+//import trabalhoJava.ProfessorTitular;
+//import java.util.ArrayList;
+
 import java.util.List;
 
 public class Curso {
@@ -20,50 +26,62 @@ public class Curso {
     }
 
     public List<Aluno> getListaAlunos() {
+
         return listaAlunos;
     }
 
     public void setListaAlunos(List<Aluno> listaAlunos) {
+
         this.listaAlunos = listaAlunos;
     }
 
     public Integer getQtdeMaxAlunos() {
+
         return qtdeMaxAlunos;
     }
 
     public void setQtdeMaxAlunos(Integer qtdeMaxAlunos) {
+
         this.qtdeMaxAlunos = qtdeMaxAlunos;
     }
 
     public ProfessorTitular getProfessorTitular() {
+
         return professorTitular;
     }
 
     public void setProfessorTitular(ProfessorTitular professorTitular) {
+
         this.professorTitular = professorTitular;
     }
 
     public ProfessorAdjunto getProfessorAdjunto() {
+
         return professorAdjunto;
     }
 
     public void setProfessorAdjunto(ProfessorAdjunto professorAdjunto) {
+
         this.professorAdjunto = professorAdjunto;
     }
 
     public String getCurso() {
+
         return curso;
     }
 
     public void setCurso(String curso) {
+
         this.curso = curso;
     }
 
     public Integer getCodigo() {
+
         return codigo;
     }
 
     public void setCodigo(Integer codigo) {
+
         this.codigo = codigo;
     }
 
